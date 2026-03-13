@@ -372,3 +372,123 @@ background: #00d5be;
     margin-left: 20px;
  }
 }
+/* Soft. Focused. Minimal. */
+.soft-section{
+background:
+        radial-gradient(ellipse 100% 310px at center,
+            rgba(0, 132, 255, 0.20),
+            rgba(64, 86, 255, 0.12) 35%,
+            rgba(32, 40, 140, 0.06) 55%,
+            rgba(2, 6, 24, 0) 70%),
+        #020618;
+}
+.soft-swiper{
+    margin-top: 30px;
+}
+.soft-swiper .swiper-slide{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        padding: 25px;
+        height: 195px;
+        background: linear-gradient(180deg, rgba(15, 23, 43, 0.5) 0%, rgba(15, 23, 43, 0.2) 100%);
+}
+.soft-item-title{
+    margin-top: 16px;
+    font-family: "Sora", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.55556;
+        color: #fff;
+}
+.soft-item-text{
+    margin-top: 8px;
+line-height: 1.625;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+.cards-swiper .swiper-ui {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.swiper-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 29px;
+    height: 29px;
+    border-radius: 999px;
+    border: 1px solid #fff;
+    background: inherit;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform .15s ease, background .15s ease, border-color .15s ease;
+}
+
+.swiper-btn:hover {
+    transform: translateY(-1px);
+    background: linear-gradient(135deg, rgba(0, 187, 167, 0.2) 0%, rgba(173, 70, 255, 0.2) 100%);;
+    border-color: inherit;
+}
+
+.swiper-btn:disabled {
+    opacity: .35;
+    cursor: not-allowed;
+}
+
+/* pagination bullets */
+.swiper-pagination {
+    position: static !important;
+    width: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.gallery-pagination .swiper-pagination-bullet,
+.soft-pagination .swiper-pagination-bullet {
+    width: 4px !important;
+    height: 4px !important;
+    background: rgba(255, 255, 255, 0.6) !important;
+    opacity: 1 !important;
+    border-radius: 999px;
+    margin: 0 !important;
+    transition: width .2s ease, height .2s ease, background .2s ease;
+}
+
+.gallery-pagination .swiper-pagination-bullet-active,
+.soft-pagination .swiper-pagination-bullet-active {
+    width: 6px !important;
+    height: 6px !important;
+    background: #fff !important;
+    opacity: 1 !important;
+}
+@media only screen and (min-width: 1440px) {
+    .cards-swiper .swiper-ui {
+            display: none;
+        }
+.soft-swiper{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.soft-swiper .swiper-wrapper{
+width: 1200px;
+justify-content: center;
+gap: 32px;
+}
+.soft-swiper .swiper-slide{
+    width: 276px;
+        height: 195px;
+}
+.soft-item-text{
+    font-size: 14px;
+        line-height: 1.625;
+}
+}
