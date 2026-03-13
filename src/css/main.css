@@ -343,4 +343,32 @@ background: #00d5be;
     .how-wrapper{
         width: 294px;
     }
+    .how-img-wrapper{
+        margin-top: 0;
+    }
+}
+/* From Simple Shapes to Layered Patterns */
+.from-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.from-text{
+    margin-top: 10px;
+}
+.from-list{
+    margin-top: 30px;
+    width: 248px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-bottom: 16px;
+}
+@media only screen and (min-width: 1440px) {
+ .from-list{
+    margin-top: 56px;
+    margin-bottom: 30px;
+    width: 313px;
+    margin-left: 20px;
+ }
 }
