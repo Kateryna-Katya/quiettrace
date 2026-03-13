@@ -108,3 +108,77 @@ transform: scale(1.02);
     width: 560px;
  }
 }
+/* Observe. Remember. Trace. */
+.observe-section{
+background:
+        radial-gradient(ellipse 100% 660px at center,
+            rgba(0, 132, 255, 0.20),
+            rgba(64, 86, 255, 0.12) 35%,
+            rgba(32, 40, 140, 0.06) 55%,
+            rgba(2, 6, 24, 0) 70%),
+        #020618;
+}
+.observe-list{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.observe-item{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 9px 20px;
+        border-radius: 16px;
+        width: 335px;
+        height: 221px;
+        background: linear-gradient(180deg, rgba(15, 23, 43, 0.5) 0%, rgba(15, 23, 43, 0.2) 100%);
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+.observe-item-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: start;
+}
+.observe-img{
+    margin-top: 10px;
+}
+.observe-item-title{
+    height: 41px;
+    font-family: "Sora", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 2;
+        color: #fff;
+        padding-top: 14px;
+}
+@media only screen and (min-width: 1440px) {
+.observe-section {
+        background:
+            radial-gradient(ellipse 1200px 390px at center,
+                rgba(0, 132, 255, 0.20),
+                rgba(64, 86, 255, 0.12) 35%,
+                rgba(32, 40, 140, 0.06) 55%,
+                rgba(2, 6, 24, 0) 70%),
+            #020618;
+    }
+ .observe-container h2{
+    text-align: center;
+ }
+ .observe-list{
+    margin-top: 80px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+ }
+ .observe-item{
+    width: 368px;
+        height: 254px;
+ }
+ .observe-item-text{
+    width: 258px;
+    font-size: 16px;
+ }
+}
