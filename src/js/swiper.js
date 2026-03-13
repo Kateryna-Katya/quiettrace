@@ -82,10 +82,10 @@ function makeResponsiveSwiper({
 }
 
 makeResponsiveSwiper({
-  rootSelector: ".connect-swiper",
-  prevEl: ".connect-prev",
-  nextEl: ".connect-next",
-  paginationEl: ".connect-pagination",
+  rootSelector: ".gallery-swiper",
+  prevEl: ".gallery-prev",
+  nextEl: ".gallery-next",
+  paginationEl: ".gallery-pagination",
 });
 
 makeResponsiveSwiper({
