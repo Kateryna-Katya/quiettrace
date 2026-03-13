@@ -240,3 +240,107 @@ gap: 8px;
     width: 610px;
   }
 }
+/* How Well You Did */
+.center{
+    text-align: center;
+}
+.white{
+    color: #fff;
+}
+.how-text{
+    margin-top: 10px;
+}
+.how-text-two{
+    font-weight: 700;
+        line-height: 2;
+        margin-top: 30px;
+}
+.how-list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.how-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dot {
+    border-radius: 33554400px;
+    width: 6px;
+    height: 6px;
+    background: #00d5be;
+}
+.how-item-text{
+line-height: 1.71429;
+    color: rgba(255, 255, 255, 0.7);
+}
+.how-img-wrapper{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.how-icon-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.how-icon-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.how-one{
+    width: 12px;
+        height: 1px;
+background: #00d5be;
+}
+.how-two{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 1px 0px 0px;
+        width: 12px;
+        height: 1px;
+        background: #c27aff;
+}
+.how-three{
+    border-radius: 33554400px;
+        width: 8px;
+        height: 8px;
+        background: #fb64b6;
+}
+.how-icon-text{
+    font-size: 12px;
+        line-height: 1.33333;
+        color: rgba(255, 255, 255, 0.6);
+}
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+    .mob{
+        display: none;
+    }
+    .desk{
+        display: block;
+    }
+    .how-text-desk{
+        margin-top: 10px;
+    }
+    .how-wrap{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 127px;
+        margin-bottom: 30px;
+    }
+    .how-text-two{
+        margin-top: 0;
+    }
+    .how-wrapper{
+        width: 294px;
+    }
+}
