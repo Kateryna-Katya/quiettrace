@@ -13,8 +13,9 @@ font-family: "Manrope", sans-serif;
     color: rgba(255, 255, 255, 0.7);
 }
 .policy-container {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 50px;
 }
 
 .privacy-title {
@@ -92,6 +93,7 @@ font-family: "Manrope", sans-serif;
     .policy-container {
         padding-left: 40px;
         padding-right: 40px;
+        padding-bottom: 60px;
     }
 
 }
