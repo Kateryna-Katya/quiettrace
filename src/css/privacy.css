@@ -95,5 +95,8 @@ font-family: "Manrope", sans-serif;
         padding-right: 40px;
         padding-bottom: 60px;
     }
-
+.policy-link {
+    width: 41px;
+    height: 41px;
+}
 }
